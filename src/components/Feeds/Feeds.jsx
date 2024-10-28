@@ -9,11 +9,9 @@ import { getAllUserDetails, userDetailReset } from "src/features/userDetail/user
 import LoadingSpinner from "src/components/Other/MixComponents/Spinner/LoadingSpinner";
 import UnderMaintenance from "src/components/Other/UnderMaintenance/UnderMaintenance";
 import apiStatus from "src/features/apiStatus";
-import { LeftContainer, SearchContainer } from "src/components/Explore/ExploreElements";
+import { LeftContainer } from "src/components/Explore/ExploreElements";
 import { getFollowData, reset } from "src/features/userDetail/follow/followSlice";
 import Sidebar from "src/components/Common/SocialSidebar/Sidebar";
-import SearchInputBox from "src/components/Common/SearchInputBox";
-
 
 const Feeds = () => {
     const dispatch = useDispatch();
@@ -81,18 +79,6 @@ const Feeds = () => {
                             token={user?.token}
                         />
                     </ModifyFeedContainer>
-                    <div id="main-searchbar">
-                        <SearchContainer>
-                            {/* <input placeholder="search" /> */}
-                            <SearchInputBox
-                                placeholder="Search by name"
-                                value={searchTerm}
-                                onChange={handleSearchTermChange}
-                                setValue={setSearchTerm}
-                                
-                            />
-                        </SearchContainer>
-                    </div>
                     <FeedPosts
                         searchTerm={searchTerm}
                         feeds={combinedData}
@@ -114,6 +100,7 @@ const Feeds = () => {
                         data={feeds}
                         selectedTags={selectedTags}
                         setSelectedTags={setSelectedTags}
+                        hideNav={true}
                     />
                 </LeftContainer>
             </FeedsContainer>
