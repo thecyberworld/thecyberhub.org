@@ -17,7 +17,7 @@ const HacktoberfestEventData = [
                 ,
                 <a
                     style={{ color: "white" }}
-                    href={"https://github.com/thecyberworld/"}
+                    href={"https://github.com/th3cyb3rhub/"}
                     target={"_blank"}
                     rel="noreferrer"
                 >
@@ -34,7 +34,7 @@ const HacktoberfestEventData = [
                     your reward. <br />
                     Contributions/pull requests can be made to the following repositories under the
                     <b>
-                        <Link href={"https://github.com/thecyberworld/"} target={"_blank"}>
+                        <Link href={"https://github.com/th3cyb3rhub/"} target={"_blank"}>
                             Thecyberworld
                         </Link>
                     </b>
@@ -43,37 +43,37 @@ const HacktoberfestEventData = [
                         <ListContent>
                             <List>
                                 Thecyberhub website:
-                                <Link href={"https://github.com/thecyberworld/TheCyberHUB"} target={"_blank"}>
+                                <Link href={"https://github.com/th3cyb3rhub/TheCyberHUB"} target={"_blank"}>
                                     link
                                 </Link>
                             </List>
                             <List>
                                 Thecyberhub App:
-                                <Link href={"https://github.com/thecyberworld/thecyberhub-app"} target={"_blank"}>
+                                <Link href={"https://github.com/th3cyb3rhub/thecyberhub-app"} target={"_blank"}>
                                     link
                                 </Link>
                             </List>
                             <List>
                                 Thecyberbot discord:
-                                <Link href={"https://github.com/thecyberworld/thecyberbot-discord"} target={"_blank"}>
+                                <Link href={"https://github.com/th3cyb3rhub/thecyberbot-discord"} target={"_blank"}>
                                     link
                                 </Link>
                             </List>
                             <List>
                                 Thecyberhub Extension:
-                                <Link href={"https://github.com/thecyberworld/thecyberhub-ext"} target={"_blank"}>
+                                <Link href={"https://github.com/th3cyb3rhub/thecyberhub-ext"} target={"_blank"}>
                                     link
                                 </Link>
                             </List>
                             <List>
                                 Port scanner:
-                                <Link href={"https://github.com/thecyberworld/port-scanner"} target={"_blank"}>
+                                <Link href={"https://github.com/th3cyb3rhub/port-scanner"} target={"_blank"}>
                                     link
                                 </Link>
                             </List>
                             <List>
                                 Subdomain finder:
-                                <Link href={"https://github.com/thecyberworld/subdomain-finder"} target={"_blank"}>
+                                <Link href={"https://github.com/th3cyb3rhub/subdomain-finder"} target={"_blank"}>
                                     link
                                 </Link>
                             </List>
@@ -81,7 +81,7 @@ const HacktoberfestEventData = [
                     </div>
                     Read the
                     <Link
-                        href={"https://github.com/thecyberworld/TheCyberHUB/blob/main/CONTRIBUTING.md"}
+                        href={"https://github.com/th3cyb3rhub/TheCyberHUB/blob/main/CONTRIBUTING.md"}
                         target={"_blank"}
                     >
                         Thecyberworld Contributing Guide
@@ -98,14 +98,14 @@ const HacktoberfestEventData = [
                     on the main Thecyberworld org. If you would like to challenge yourself, you can create some issues
                     and features requests on
                     <b>
-                        <Link href={"https://github.com/thecyberworld"} target={"_blank"}>
+                        <Link href={"https://github.com/th3cyb3rhub"} target={"_blank"}>
                             Thecyberworld
                         </Link>
                     </b>
                     and work on those issues.
                     <br />
                     <br />
-                    <Link href={"https://github.com/thecyberworld/"} target={"_blank"}></Link>
+                    <Link href={"https://github.com/th3cyb3rhub/"} target={"_blank"}></Link>
                     Some good resources to get started for beginners:
                     <div style={{ margin: "10px 20px" }}>
                         <ListContent>
