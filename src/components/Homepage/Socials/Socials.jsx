@@ -26,7 +26,7 @@ const Socials = () => {
             Component: SocialCardDiscord,
             Icon: FaDiscord,
             label: "Discord",
-            href: "https://discord.gg/QHBPq6xP5p",
+            href: "https://discord.com/invite/thecyberhub-799183504759324672",
         },
         {
             Component: SocialCardGithub,

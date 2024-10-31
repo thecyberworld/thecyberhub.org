@@ -15,7 +15,7 @@ export const aboutData = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: "TheCyberworld Community",
+    topLine: "TheCyberHUB Community",
     headline: "Empowering the Next Generation of Cybersecurity Experts",
     description: (
         <>
@@ -55,7 +55,7 @@ export const aboutData = {
     buttonType2: "router",
     imgStart: false,
     img: logoThecyberworld,
-    alt: "Thecyberworld Community Logo",
+    alt: "TheCyberHUB Community Logo",
     dark: true,
     primary: true,
     darkText: false,
@@ -96,7 +96,7 @@ export const communityData = {
     id: "community",
     idTo: "join",
     buttonLabel1: "Join Community",
-    link1: "https://discord.gg/thecyberworld-799183504759324672",
+    link1: "https://discord.com/invite/thecyberhub-799183504759324672",
     buttonType1: "redirect",
     buttonLabel2: "All Community Links",
     link2: "https://linktr.ee/th3cyb3rhub",

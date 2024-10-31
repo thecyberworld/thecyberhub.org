@@ -314,7 +314,7 @@ const ContactForm = () => {
                                         </ContactFormLabel>
                                         <RedirectLink
                                             style={{ color: "white" }}
-                                            href={"https://discord.gg/thecyberworld-799183504759324672"}
+                                            href={"https://discord.com/invite/thecyberhub-799183504759324672"}
                                             target={"_blank"}
                                         >
                                             <u>Discord Link</u>

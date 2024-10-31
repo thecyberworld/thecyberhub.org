@@ -6,12 +6,17 @@ const HacktoberfestXthecyberworld = `${getCdnAssets}/images/Events/Hacktoberfest
 const HacktoberfestEventData = [
     {
         id: 1,
-        title: "We are happy to announce that Thecyberworld is participating in Hacktoberfest 2022.",
+        title: "We are happy to announce that TheCyberHUB is participating in Hacktoberfest 2022.",
         date: "1st October 2022",
         image: HacktoberfestXthecyberworld,
         venue: (
             <>
-                <a style={{ color: "white" }} href={"https://discord.gg/QHBPq6xP5p"} target={"_blank"} rel="noreferrer">
+                <a
+                    style={{ color: "white" }}
+                    href={"https://discord.com/invite/thecyberhub-799183504759324672"}
+                    target={"_blank"}
+                    rel="noreferrer"
+                >
                     Discord
                 </a>
                 ,
@@ -35,7 +40,7 @@ const HacktoberfestEventData = [
                     Contributions/pull requests can be made to the following repositories under the
                     <b>
                         <Link href={"https://github.com/th3cyb3rhub/"} target={"_blank"}>
-                            Thecyberworld
+                            TheCyberHUB
                         </Link>
                     </b>
                     organization: <br />
@@ -84,7 +89,7 @@ const HacktoberfestEventData = [
                         href={"https://github.com/th3cyb3rhub/TheCyberHUB/blob/main/CONTRIBUTING.md"}
                         target={"_blank"}
                     >
-                        Thecyberworld Contributing Guide
+                        TheCyberHUB Contributing Guide
                     </Link>
                     . If you are a beginner, please check out the curated
                     <Link
@@ -95,11 +100,11 @@ const HacktoberfestEventData = [
                     >
                         Hacktoberfest issues
                     </Link>
-                    on the main Thecyberworld org. If you would like to challenge yourself, you can create some issues
-                    and features requests on
+                    on the main TheCyberHUB org. If you would like to challenge yourself, you can create some issues and
+                    features requests on
                     <b>
                         <Link href={"https://github.com/th3cyb3rhub"} target={"_blank"}>
-                            Thecyberworld
+                            TheCyberHUB
                         </Link>
                     </b>
                     and work on those issues.

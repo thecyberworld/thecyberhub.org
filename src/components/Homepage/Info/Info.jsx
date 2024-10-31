@@ -138,7 +138,7 @@ const InfoSection = ({
                             <YouTubeVideoContainer>
                                 <YouTubeVideoIFrame
                                     src="https://www.youtube.com/embed/r5CDqVnWFFQ"
-                                    title="Community Introduction | Thecyberworld"
+                                    title="Community Introduction | TheCyberHUB"
                                     frameBorder="0"
                                     allow="web-share"
                                     allowFullScreen

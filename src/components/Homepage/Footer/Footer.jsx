@@ -33,7 +33,7 @@ const SocialLinks = {
     github: "https://www.github.com/th3cyb3rhub",
     instagram: "https://www.instagram.com/th3cyb3rhub",
     twitter: "https://www.twitter.com/th3cyb3rhub",
-    discord: "https://discord.gg/QHBPq6xP5p",
+    discord: "https://discord.com/invite/thecyberhub-799183504759324672",
     telegram: "https://t.me/th3cyb3rhub",
     linktree: "https://linktr.ee/th3cyb3rhub",
     youtube: "https://www.youtube.com/@th3cyb3rhub",
@@ -120,7 +120,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>
-                            Thecyberworld
+                            TheCyberHUB
                         </SocialLogo>
                         <WebsiteRights> © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
