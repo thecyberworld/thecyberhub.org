@@ -220,6 +220,11 @@ export const RouterNavCreateButtonLink = styled(Link)`
         font-size: 12px;
     }
 
+    @media screen and (width <= 1280px) {
+        min-width: 10px;
+        font-size: 14px;
+    }
+
     /* @media screen and (max-width: 1150px) {
      display: none;
     }
