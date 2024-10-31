@@ -9,20 +9,23 @@ import {
     SocialCardTelegram,
     SocialCardInstagram,
     SocialCardLinkedin,
-    SocialCardFacebook,
+    // SocialCardFacebook,
     SocialH1,
     SocialWrapper,
 } from "./SocialsElements";
 import {
     FaDiscord,
-    FaFacebookF,
+    // FaFacebookF,
     FaGithub,
     FaInstagram,
     FaLinkedinIn,
     FaTelegramPlane,
     FaYoutube,
 } from "react-icons/fa";
-import { FaThreads, FaXTwitter } from "react-icons/fa6";
+import {
+    // FaThreads,
+    FaXTwitter,
+} from "react-icons/fa6";
 import { H1 } from "src/components/Homepage/ContactForm/ContactFormElements";
 
 const Socials = () => {
@@ -35,61 +38,55 @@ const Socials = () => {
                         <FaDiscord /> <SocialH1> Discord </SocialH1>
                     </SocialCardDiscord>
 
-                    <SocialCardGithub href="https://www.github.com/thecyberworld" target="_blank" aria-label="Github">
+                    <SocialCardGithub href="https://www.github.com/th3cyb3rhub" target="_blank" aria-label="Github">
                         <FaGithub /> <SocialH1> Github </SocialH1>
                     </SocialCardGithub>
 
-                    <SocialCardYoutube
-                        href="https://www.youtube.com/c/thecyberworld"
-                        target="_blank"
-                        aria-label="Youtube"
-                    >
+                    <SocialCardYoutube href="https://www.youtube.com/@th3cyb3rhub" target="_blank" aria-label="Youtube">
                         <FaYoutube /> <SocialH1> YouTube </SocialH1>
                     </SocialCardYoutube>
 
+                    {/* <br/> */}
+
                     <SocialCardLinkedin
-                        href="https://linkedin.com/company/thecyberw0rld"
+                        href="https://linkedin.com/company/th3cyb3rhub"
                         target="_blank"
                         aria-label="Linkedin"
                     >
                         <FaLinkedinIn /> <SocialH1> LinkedIn </SocialH1>
                     </SocialCardLinkedin>
 
-                    <SocialCardTelegram href="https://t.me/thecyberw0rld" target="_blank" aria-label="Telegram">
+                    <SocialCardTelegram href="https://t.me/th3cyb3rhub" target="_blank" aria-label="Telegram">
                         <FaTelegramPlane /> <SocialH1> Telegram </SocialH1>
                     </SocialCardTelegram>
 
-                    <SocialCardTwitter
-                        href="https://www.twitter.com/thecyberw0rld"
-                        target="_blank"
-                        aria-label="Twitter"
-                    >
+                    <SocialCardTwitter href="https://www.twitter.com/th3cyb3rhub" target="_blank" aria-label="Twitter">
                         <FaXTwitter /> <SocialH1> Twitter </SocialH1>
                     </SocialCardTwitter>
 
-                    <SocialCardInstagram
-                        href="https://www.threads.net/thecyberw0rld"
-                        target="_blank"
-                        aria-label="Thread"
-                    >
-                        <FaThreads /> <SocialH1> Threads </SocialH1>
-                    </SocialCardInstagram>
+                    {/* <SocialCardInstagram */}
+                    {/*    href="https://www.threads.net/th3cyb3rhub" */}
+                    {/*    target="_blank" */}
+                    {/*    aria-label="Thread" */}
+                    {/* > */}
+                    {/*    <FaThreads /> <SocialH1> Threads </SocialH1> */}
+                    {/* </SocialCardInstagram> */}
 
                     <SocialCardInstagram
-                        href="https://www.instagram.com/thecyberw0rld"
+                        href="https://www.instagram.com/th3cyb3rhub"
                         target="_blank"
                         aria-label="Instagram"
                     >
                         <FaInstagram /> <SocialH1> Instagram </SocialH1>
                     </SocialCardInstagram>
 
-                    <SocialCardFacebook
-                        href="https://www.facebook.com/thecyberworldcommunity/"
-                        target="_blank"
-                        aria-label="Facebook"
-                    >
-                        <FaFacebookF /> <SocialH1> Facebook </SocialH1>
-                    </SocialCardFacebook>
+                    {/* <SocialCardFacebook */}
+                    {/*    href="https://www.facebook.com/th3cyb3rhub/" */}
+                    {/*    target="_blank" */}
+                    {/*    aria-label="Facebook" */}
+                    {/* > */}
+                    {/*    <FaFacebookF /> <SocialH1> Facebook </SocialH1> */}
+                    {/* </SocialCardFacebook> */}
                 </SocialsWrapper>
             </SocialsContainer>
         </SocialWrapper>

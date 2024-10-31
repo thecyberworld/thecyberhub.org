@@ -30,14 +30,14 @@ import { FaXTwitter } from "react-icons/fa6";
 import { animateScroll as scroll } from "react-scroll";
 
 const SocialLinks = {
-    github: "https://www.github.com/thecyberworld",
-    instagram: "https://www.instagram.com/thecyberw0rld",
-    twitter: "https://www.twitter.com/thecyberw0rld",
+    github: "https://www.github.com/th3cyb3rhub",
+    instagram: "https://www.instagram.com/th3cyb3rhub",
+    twitter: "https://www.twitter.com/th3cyb3rhub",
     discord: "https://discord.gg/QHBPq6xP5p",
-    telegram: "https://t.me/thecyberw0rld",
-    linktree: "https://linktr.ee/thecyberworld",
-    youtube: "https://www.youtube.com/c/thecyberworld",
-    linkedin: "https://linkedin.com/company/thecyberw0rld",
+    telegram: "https://t.me/th3cyb3rhub",
+    linktree: "https://linktr.ee/th3cyb3rhub",
+    youtube: "https://www.youtube.com/@th3cyb3rhub",
+    linkedin: "https://linkedin.com/company/th3cyb3rhub",
 };
 
 const toggleHome = () => {

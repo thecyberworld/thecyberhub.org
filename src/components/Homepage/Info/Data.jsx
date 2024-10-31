@@ -110,7 +110,7 @@ export const communityData = {
     link1: "https://discord.gg/thecyberworld-799183504759324672",
     buttonType1: "redirect",
     buttonLabel2: "All community links",
-    link2: "https://linktr.ee/thecyberworld",
+    link2: "https://linktr.ee/th3cyb3rhub",
     buttonType2: "redirect",
     lightBg: false,
     lightText: true,
@@ -154,7 +154,7 @@ export const contributeData = {
             Contribute to Projects
         </>
     ),
-    link1: "https://github.com/thecyberworld",
+    link1: "https://github.com/th3cyb3rhub",
     buttonType1: "redirect",
     buttonLabel2: <>Contribute to Community</>,
     link2: "/community",

@@ -109,7 +109,7 @@ const SpecialSponsors = () => {
                         <SponsorsH2>{""}</SponsorsH2>
                     </SponsorsFooterBar>
                 </SponsorsLayout>
-                <SponsorButton href={"https://github.com/sponsors/Thecyberworld"} target={"_blank"} rel={"noreferrer"}>
+                <SponsorButton href={"https://github.com/sponsors/th3cyb3rhub"} target={"_blank"} rel={"noreferrer"}>
                     Sponsor Thecyberworld Community
                 </SponsorButton>
             </SponsorsContainer>
