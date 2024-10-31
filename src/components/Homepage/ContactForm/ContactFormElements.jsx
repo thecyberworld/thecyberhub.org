@@ -63,7 +63,7 @@ export const ContactFormContainer = styled.div`
         color: #fff;
         font-family: inherit;
         background-color: transparent;
-        border: 1px solid #414141;
+        border: none;
     }
 
     input&::placeholder,
@@ -201,14 +201,15 @@ export const ContactFormInput = styled.input`
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center; /* Align icon vertically with input field */
+    align-items: center;
     border-radius: 5px;
     background: transparent;
-    border: transparent;
     color: #f5f5f5;
     width: 100%;
     text-underline-offset: 5px;
     font-size: 20px;
+    outline: none;
+    border: 1px solid #1a1c1d;
 
     &::placeholder {
         color: #f5f5f5;
@@ -216,6 +217,8 @@ export const ContactFormInput = styled.input`
 
     &:focus {
         outline: none;
+        border: none;
+        box-shadow: none;
     }
 
     &:hover {

@@ -13,7 +13,6 @@ import {
     CoverRight,
     EmailIcon,
     ErrorMessage,
-    H1,
     InternshipIcon,
     MessageIcon,
     OrgIcon,
@@ -33,9 +32,9 @@ import { validateEmail } from "src/utils/validateEmail.js";
 import apiStatus from "src/features/apiStatus.jsx";
 import { Wrapper } from "src/components/Dashboard/Profile/ProfileElements.jsx";
 import UnderMaintenance from "src/components/Other/UnderMaintenance/UnderMaintenance.jsx";
-// import { volunteerPrograms } from "src/components/Opportunities/Volunteer/VolunteerData";
 import { RedirectLink } from "src/components/Learn/Roadmaps/RoadmapElements.jsx";
 import { DiscordButtonIcon } from "src/components/Other/Community/CommunityElements.jsx";
+import { SectionTitle } from "src/components/Homepage/Socials/SocialsElements.jsx";
 
 const ContactForm = () => {
     const { isApiLoading, isApiWorking } = apiStatus();
@@ -207,7 +206,7 @@ const ContactForm = () => {
     return (
         <ContactFormContainer id={"contactUs"}>
             {/* <H1> {"Internship, Volunteer and Speaker Opportunities.".toUpperCase()} </H1> */}
-            <H1> {"Internship Opportunities".toUpperCase()} </H1>
+            <SectionTitle> {"Internship Opportunities".toUpperCase()} </SectionTitle>
             <ContactFormCard>
                 <ContactFormSection onSubmit={handleSubmit}>
                     <Cover>
@@ -216,6 +215,7 @@ const ContactForm = () => {
                                 <PersonIcon />
                             </ContactFormLabel>
                             <ContactFormInput
+                                autoFocus
                                 type="text"
                                 name="name"
                                 id="name"
@@ -234,7 +234,7 @@ const ContactForm = () => {
                                 id="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                                placeholder={"Email"}
+                                placeholder="Email"
                             />
                         </CoverRight>
                     </Cover>
