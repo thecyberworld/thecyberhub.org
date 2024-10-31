@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { AiTwotoneMail } from "react-icons/ai";
 import { BsQuestionSquareFill, BsTelephoneFill, BsFillPersonFill } from "react-icons/bs";
 import { CgNotes, CgOrganisation, CgWorkAlt } from "react-icons/cg";
+import { CiMail } from "react-icons/ci";
 import { RiQuestionAnswerFill } from "react-icons/ri";
 import { SiFirefoxbrowser, SiFsecure } from "react-icons/si";
 
@@ -84,7 +84,7 @@ export const Cover = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 5px;
+    gap: 8px;
 
     @media (width <= 500px) {
         flex-direction: column;
@@ -109,20 +109,18 @@ export const CoverLeft = styled.div`
 `;
 
 export const CoverRight = styled.div`
-    font-family: Poppins, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: start;
+    align-items: center;
     width: 100%;
     background: #101010;
     padding: 15px;
     border-radius: 2px;
     margin: 5px 0;
-    margin-left: 5px;
 
     @media (width <= 500px) {
-        margin-left: 0;
+        margin-right: 0;
     }
 `;
 
@@ -161,9 +159,9 @@ export const OrgIcon = styled(CgOrganisation)`
     color: #666;
     margin: 0 10px;
 `;
-export const EmailIcon = styled(AiTwotoneMail)`
+export const EmailIcon = styled(CiMail)`
     color: #666;
-    margin: 20px 10px;
+    margin: 0 10px;
 `;
 
 export const WebIcon = styled(SiFirefoxbrowser)`
@@ -237,6 +235,7 @@ export const ContactFormSelect = styled.select`
     border: none;
     color: #f5f5f5;
     width: 100%;
+    margin-left: 16px;
 
     @media (width <= 900px) {
         font-size: 17px;

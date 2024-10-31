@@ -212,7 +212,7 @@ const ContactForm = () => {
                     <Cover>
                         <CoverLeft>
                             <ContactFormLabel htmlFor="name">
-                                <PersonIcon />
+                                <PersonIcon size={26} />
                             </ContactFormLabel>
                             <ContactFormInput
                                 autoFocus
@@ -226,7 +226,7 @@ const ContactForm = () => {
                         </CoverLeft>
                         <CoverRight>
                             <ContactFormLabel htmlFor="name">
-                                <EmailIcon />
+                                <EmailIcon size={26} />
                             </ContactFormLabel>
                             <ContactFormInput
                                 type="text"
@@ -241,7 +241,7 @@ const ContactForm = () => {
 
                     <CoverLeft>
                         <ContactFormLabel htmlFor="reason">
-                            <ReasonIcon />
+                            <ReasonIcon size={26} />
                         </ContactFormLabel>
                         <ContactFormSelect
                             aria-label="reason"
@@ -269,7 +269,7 @@ const ContactForm = () => {
                         <>
                             <CoverLeft>
                                 <ContactFormLabel htmlFor="reasonType">
-                                    <InternshipIcon />
+                                    <InternshipIcon size={26} />
                                 </ContactFormLabel>
                                 <ContactFormSelect
                                     name="reasonType"
@@ -288,7 +288,7 @@ const ContactForm = () => {
                             <Cover>
                                 <CoverLeft>
                                     <ContactFormLabel htmlFor="resume">
-                                        <ResumeIcon />
+                                        <ResumeIcon size={26} />
                                     </ContactFormLabel>
                                     <ContactFormInput
                                         type="text"
@@ -310,7 +310,7 @@ const ContactForm = () => {
                                 <CoverLeft>
                                     <CoverLeft style={{ maxWidth: "200px" }}>
                                         <ContactFormLabel htmlFor="resume">
-                                            <DiscordButtonIcon size={16} />
+                                            <DiscordButtonIcon size={26} />
                                         </ContactFormLabel>
                                         <RedirectLink
                                             style={{ color: "white" }}
@@ -329,7 +329,7 @@ const ContactForm = () => {
                     {!isOpened && reason === "internship" && (
                         <CoverLeft>
                             <ContactFormLabel htmlFor="reasonType">
-                                <InternshipIcon />
+                                <InternshipIcon size={26} />
                             </ContactFormLabel>
                             <ContactFormInput
                                 type="text"
@@ -345,7 +345,7 @@ const ContactForm = () => {
                     {reason === "feedback" && (
                         <CoverLeft>
                             <ContactFormLabel htmlFor="contextHeading">
-                                <OrgIcon />
+                                <OrgIcon size={26} />
                             </ContactFormLabel>
                             <ContactFormInput
                                 type="text"
@@ -360,7 +360,7 @@ const ContactForm = () => {
                     {reason === "other" && (
                         <CoverLeft>
                             <ContactFormLabel htmlFor="contextHeading">
-                                <OrgIcon />
+                                <OrgIcon size={26} />
                             </ContactFormLabel>
                             <ContactFormInput
                                 type="text"
@@ -375,7 +375,7 @@ const ContactForm = () => {
                     {reason === "internship" && !isOpened ? null : (
                         <CoverLeft style={{ alignItems: "start" }}>
                             <ContactFormLabel htmlFor="message">
-                                <MessageIcon />
+                                <MessageIcon size={26} />
                             </ContactFormLabel>
                             <ContactFormTextArea
                                 type="text"
