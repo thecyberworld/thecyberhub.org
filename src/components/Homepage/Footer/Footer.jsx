@@ -90,7 +90,7 @@ const Footer = () => {
                         </FooterLinkItems>
 
                         <FooterLinkItems>
-                            <FooterLinkTitle>Community</FooterLinkTitle>
+                            <FooterLinkTitle>Contact Us</FooterLinkTitle>
                             <FooterRouterLink to="/contact">Contact</FooterRouterLink>
                             <FooterRouterLink to="/contact">Feedback</FooterRouterLink>
                             <FooterRouterLink to="/community">Community</FooterRouterLink>
