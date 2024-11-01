@@ -215,7 +215,6 @@ const ContactForm = () => {
                                 <PersonIcon size={26} />
                             </ContactFormLabel>
                             <ContactFormInput
-                                autoFocus
                                 type="text"
                                 name="name"
                                 id="name"
